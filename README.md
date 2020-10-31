@@ -1,21 +1,23 @@
-# Payload-Creater
+# Payload-Creator
 ### Introduction:
 
-A Simple Payload Creater And Port Forwarding Tool For Linux Distributions Using Metasploit-Framework Payload Creater(msfvenom) And Ngrok..!
+A Simple Payload And Listener Creator For Linux Distributions Using Metasploit-Framework Payload Creator(msfvenom) ..!
 
-* You Can Create Payloads(Exploitable Applications) For Various Platforms. 
+* You Can Create Payloads And Listeners(Exploitable Applications And Back Door Connection Creator) For Various Platforms. 
 
-* Currentls Payload_Creater Can Create Payloads For 3 Platforms.
+* Currently Payload-Creator Can Create Payloads And Listeners For 3 Platforms.
 
-	1. **Android**.
+	**Android**.
 	
-	2. **Windows(x86,x64)**.
+	**Windows(x86,x64)**.
 	
-	3. **Linux(x86,x64)**.
+	**Linux(x86,x64)**.
 	
-* To Create Payloads For Other Distributions You Have To Manually Enter The Auxiliaries.
+* To Create Payloads And Listeners For Other Distributions You Have To Manually Enter The Auxiliaries.
 
-### Screenshots
+* If You Want To Attack World Wide You Need Ngrok(Port Forwarding Tool).
+
+### Screen shots
 
 <p allign="center">
 
@@ -29,11 +31,11 @@ A Simple Payload Creater And Port Forwarding Tool For Linux Distributions Using 
 
 </br>
 
-### Pre-Requirements:
+### Requirements:
 
 * It Can Run On Any Linux Distributions.
 
-* But Distributions Like Ubuntu Don't Have The Metaspoit-Framework Tool.
+* But Distributions Like Ubuntu Don't Have The Metasploit-Framework Tool.
 
 * Metasploit-Framework is Required.
 
@@ -41,35 +43,35 @@ A Simple Payload Creater And Port Forwarding Tool For Linux Distributions Using 
 
 * Apache WebServer And Postgresql Database is Required.
 
-* And Most Importantly A Working Brain.. ;).
-
 </br>
 
 ### How To Install Metasploit and Ngrok
 
 * `sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install metasploit-framework msfpc apache2 postgresql -y`.
 
-*  Simply Copy And Paste The Above Line On Your Termianl And Press Enter To Install Metasploit-Framework And It's Components.
+* Simply Copy And Paste The Above Line On Your Terminal And Press Enter To Install Metasploit-Framework And It's Components.
 
 * To Download And Install Ngrok Refer This <a href="https://ngrok.com/download">Site</a>.
+
+* Download And Goto Downloads .. `cd Downloads/`.
+
+* Authenticate Ngrok And Move It To `/usr/bin/` .. `mv ngrok /usr/bin/`.
 
 </br>
 
 ### How to Run
 
-* Type `git clone https://github.com/EP707/Payload-Creater.git`
+* Open Your Terminal Window And Type `git clone https://github.com/EP707/Payload-Creator.git`
 
-* Open Your Termianl Window And Change Directory To Downloaded Location(Example: `cd Downloads/`).
+* Type `cd Payload-Creator/`.
 
 * Type `sh payload.sh`.
 
-* If It Dosn't Work, Try `bash payload.sh` or `./payload.sh`.
+* If It Doesn't Work, Try `bash payload.sh` or `./payload.sh`.
 
 * If It Also Doesn't Work, Type `chmod +x payload.sh` And Try Above Commands.
-
-* If Also Doesn't Work, Probably This Linux Thing Is Not For You :) .. Just Kidding. 
-
-***Disclaimer*** - I'm Not A PRO.. So, Use This Tool On Your Own Risk.. I'm Not 100% Sure About The Produced Payload Apk File Will Work ..!! 
+ 
+***Disclaimer*** - I'm Not A PRO.. So, Use This Tool On Your Own Risk.. I'm Not 100% Sure About The Produced Payload File Will Work ..!! 
 
 </br>
 
